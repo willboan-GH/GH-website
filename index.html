@@ -33,6 +33,14 @@
   <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <script type="text/javascript">
+    function callbackName(response) {
+      document.getElementById("view-counter").innerText = response.value;
+    }
+  </script>
+
+  <script async src="https://api.countapi.xyz/hit/greenberghameed.com/visits?callback=callbackName"></script>
+
 </head>
 
 <body>
@@ -101,7 +109,7 @@
       <div id="main-subcont-2" class="d-flex justify-content-end align-items-center" style="color: #69C9BE; margin-bottom: 50px;">
         <div class="text-end me-3 mt-3" style="width: 45%;">
           <h2 id="text-animated" class="">
-            Developing advanced immigration strategies for global businesses across all industries, from start-ups to leading multinationals
+            Advanced immigration strategies for global businesses across all industries, from <span class="text-nowrap">start-ups</span> to leading multinationals
           </h2>
 
         </div>
@@ -160,7 +168,7 @@
   </footer>
 
 
-
+  <div id="view-counter" style="display: none;"></div>
 
 
 
