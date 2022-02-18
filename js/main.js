@@ -13,9 +13,9 @@ $(function(){
   //   });
   // });
 
-  $("#relaunching")
-  .fadeIn(1300).fadeOut(500)
-  .fadeIn(1300);
+  $(".relaunching-date-text")
+  .fadeIn(1800).fadeOut(200)
+  .fadeIn(1800);
 
   $("#title-cont-1").fadeIn(1800, function() {
     $("#logo-cont-TalentFlo").fadeIn(1800, function() {

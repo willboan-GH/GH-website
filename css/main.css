@@ -82,6 +82,9 @@ h3 {
   vertical-align: middle;
   /* margin-top: 75px; */
 }
+#main-subcont-1 img {
+  max-width: 100%;
+}
 
 a {
   color: inherit;
@@ -125,6 +128,6 @@ footer {
 
 
 
-.start-hidden, #relaunching, #text-animated, #teal-rectangle {
+.start-hidden, .relaunching-date-text, #text-animated, #teal-rectangle {
   display: none;
 }

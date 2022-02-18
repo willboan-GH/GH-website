@@ -49,19 +49,24 @@
     <nav class="navbar" aria-label="Header navbar">
       <div class="container">
         <div class="row w-100">
-          <div class="col-9">
+          <div class="col-12 col-sm-9">
             <a class="me-auto navbar-brand" href="http://greenberghameed.com">
               <img id="GH-logo" src="svg/GH-logo.svg" alt="Greenberg Hameed logo">
             </a>
           </div>
-          <div class="col-3 py-2 d-flex justify-content-end align-items-center">
-            <h3 id="relaunching" class="text-center">
+          <div class="d-none d-sm-flex col-3 py-2 justify-content-end align-items-center">
+            <h3 class="relaunching-date-text text-center">
               <span>Relaunching</span><br>
               <i>March 15</i>
             </h3>
           </div>
         </div>
         <div id="navbar-line"></div>
+        <div class="d-flex d-sm-none w-100 py-2 justify-content-end align-items-center">
+          <h3 class="relaunching-date-text text-center me-2">
+            <i>Relaunching March 15</i>
+          </h3>
+        </div>
       </div>
     </nav>
   </header>
@@ -95,11 +100,6 @@
             <img src="svg/TalentConnect.svg" alt="TalentConnect logo">
           </div>
         </div>
-        <div id="logo-cont-TalentSelect" class="start-hidden">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <img src="svg/TalentSelect.svg" alt="TalentSelect logo">
-          </div>
-        </div>
         <div id="logo-cont-TalentSUV" class="start-hidden">
           <div class="d-flex justify-content-center align-items-center h-100">
             <img src="svg/TalentSUV.svg" alt="TalentSUV logo">
@@ -111,7 +111,6 @@
           <h2 id="text-animated" class="">
             Advanced immigration strategies for global businesses across all industries, from <span class="text-nowrap">start-ups</span> to leading multinationals
           </h2>
-
         </div>
         <div id="teal-rectangle" class="me-3"></div>
       </div>
@@ -162,7 +161,12 @@
     </div>
     <div id="footer-2" class="py-3">
       <div class="container text-center">
-        <div id="copyright">Copyright 2022 | Greenberg Hameed PC | All Rights Reserved</div>
+        <div class="d-none d-sm-block">Copyright 2022 | Greenberg Hameed PC | All Rights Reserved</div>
+        <div class="d-block d-sm-none">
+          Copyright 2022<br>
+          Greenberg Hameed PC<br>
+          All Rights Reserved
+        </div>
       </div>
     </div>
   </footer>
